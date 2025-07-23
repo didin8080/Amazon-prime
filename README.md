@@ -712,7 +712,11 @@ pipeline{
 ```
 
 
-And the end of the console out you will get a external ip like this `http://a4eadb1aa6e624d94a9cbc2dc5e2fdd1-1396135409.eu-north-1.elb.amazonaws.com/`
+And the end of the console out you will get a external ip like this 
+
+`http://a4eadb1aa6e624d94a9cbc2dc5e2fdd1-1396135409.eu-north-1.elb.amazonaws.com/`
+
+
 If you wont get type
 
 ```bash
