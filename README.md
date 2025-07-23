@@ -722,6 +722,9 @@ If you wont get type
 ```bash
 kubectl get all
 ```
+You will get this external ip
+
+
 
 <div align="center">
 <img src="img/eks.png" alt="Logo" height="500%" width="100%">
