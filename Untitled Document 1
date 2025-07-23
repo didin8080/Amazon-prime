@@ -1,0 +1,13 @@
+squ_d3b8a7b6650573f86c8da50cac0b85a190cbd682
+
+
+eksctl create cluster --name=amazon-cluster --region eu-north-1 --zones eu-north-1b,eu-north-1c --without-nodegroup
+
+eksctl utils associate-iam-oidc-provider --region eu-north-1 --cluster amazon-cluster --approve
+
+
+eksctl create nodegroup --cluster amazon-cluster --region eu-north-1 --name node2 --node-type t3.medium --nodes 2 --nodes-min 2 --nodes-max 4 --node-volume-size 20 --ssh-access --ssh-public-key sonu --managed --asg-access --external-dns-access --full-ecr-access --appmesh-access --alb-ingress-access
+
+
+
+
